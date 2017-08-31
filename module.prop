@@ -1,0 +1,7 @@
+id=autobrevent
+name=Brevent Autorun Module
+version=v1
+versionCode=1
+author=Jarek
+description=A magisk module to make brevent autorun when power-up
+template=4
