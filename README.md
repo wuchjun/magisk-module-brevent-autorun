@@ -1,14 +1,14 @@
-#### Brevent Autorun Module
-A magisk module to make brevent autorun when power-up
+# Brevent Autorun Module
+A magisk module to make brevent autorun via wifi adb when power-up
 
-#### NOTICE
 
-* You should use latest Magisk Manager to install this module. If you meet any problem under installation from Magisk Manager, please try to install it from recovery.
-* Resent fixes:
-Magisk v13 Template v4 compatabilities
+# Notice
+1. Based on Magisk v14.0 or newer
+2. Testd on OnePlus 3 with TWRP 3.1.1.x
+3. Root is not required
 
-#### Credit & Support
+
+# Credit & Support
 
 * Copyright (C) 2017 simonsmh <chjun90@gmail.com>
 * Any issue or pull request is welcomed.
-* Star this module at [GitHub](https://github.com/wuchjun/magisk-module-brevent-autorun)

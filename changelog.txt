@@ -1,0 +1,5 @@
+v4    - Update to template 1700
+v3    - Add waiting for brevent_server start
+v2    - Update to template 1400
+v1
+    - Initial

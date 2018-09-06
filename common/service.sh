@@ -14,9 +14,14 @@ done
 setprop service.adb.tcp.port 5555
 stop adbd
 start adbd
-#open brevent to autostart BreventServer via wifi adb
+#waiting for brevent_server start
+until [ ! -z "$(ps | grep brevent_server | grep -v grep)" ]
+do
+#open brevent to autostart BrevenServer via wifi adb
 am start --user 0 -n me.piebridge.brevent/.ui.BreventActivity
 sleep 5
+done
+#exit brevent
 am force-stop me.piebridge.brevent
 #stop wifi adb
 setprop service.adb.tcp.port -1
